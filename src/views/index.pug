@@ -1,0 +1,42 @@
+extends includes/layout.pug
+
+block title
+  title AE Day 2017 | Team Previews
+  
+block body
+  header(style="background-image:url(../../dist/images/cover.jpg); background-position: center center; background-size: cover;")
+    .text
+      h1 <span class = "andover">Andover</span> / <span class = "exeter">Exeter</span> 2017
+      p Team Previews
+        br
+        i.credits Phillipian Sports
+  p.header-credits= "Courtesy of Andover Athletics"
+  #story
+    p Quick Links:&nbsp;
+      a(href = "#bvfb") Boys Football
+      | &nbsp;|&nbsp;
+      a(href = "#gvfh") Girls Field Hockey
+      | &nbsp;|&nbsp;
+      a(href = "#bvs") Boys Soccer
+      | &nbsp;|&nbsp;
+      a(href = "#gvs") Girls Soccer
+      | &nbsp;|&nbsp;
+      a(href = "#gvvb") Girls Volleyball
+      | &nbsp;|&nbsp;
+      a(href = "#bvwp") Boys Varsity Water Polo
+      | &nbsp;|&nbsp;
+      a(href = "#gxc") Girls Cross Country
+      | &nbsp;|&nbsp;
+      a(href = "#bxc") Boys Cross Country
+
+    //- iframe(width="100%", height="600px", src="https://www.youtube.com/embed/zUMrANDN3A0?rel=0", frameborder="0", allowfullscreen="", style="margin: 30px auto; display: block") 
+    //- hr
+    include previews/bvf
+    include previews/gfh
+    include previews/bvs
+    include previews/gvs
+    include previews/gvvb
+    include previews/bvwp
+    h4.note Last weekend, Boys and Girls Cross Country raced Exeter. This weekend, both teams look to win the Interscholastic Championship.
+    include previews/gxc
+    include previews/bxc

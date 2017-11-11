@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "sourcesanspro";
+  src: url("/dist/fonts/source_sans_pro/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "sourcesanspro";
+  font-weight: bold;
+  src: url("/dist/fonts/source_sans_pro/SourceSansPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "sourcesanspro";
+  font-weight: bold;
+  font-style: italic;
+  src: url("/dist/fonts/source_sans_pro/SourceSansPro-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "ptserif";
+  src: url("/dist/fonts/pt_serif/PT_Serif-Web-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ptserif";
+  font-style: italic;
+  src: url("/dist/fonts/pt_serif/PT_Serif-Web-Italic.ttf");
+}
+
+$horizontal-padding: 40px;
+
+$blue: #4B77BE;
+$light-blue: #22A7F0;
+$darker-blue: #212121;
+$red: #E74C3C;
+$gray: #6C7A89;
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+  font-family: sourcesanspro;
+}
+
+a{
+  transition: 0.2s;
+  color: $blue;
+  &:hover{
+    color: $darker-blue;
+  }
+}
+
+p, li{
+  font-family: ptserif;
+}
+
+i{
+  font-style: italic;
+}
+
+//Typographic elements
+.quote{
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 50%;
+  p{
+    font-family: sourcesanspro;
+    font-size: 1.25em;
+  }
+}
+
+.full-width, .half-width, .double-image{
+  padding: 20px 0;
+  img{
+    width: 100%;
+  }
+  .credits{
+    color: $gray;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+  .caption{
+    text-align: center;
+  }
+}
+
+.half-width{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.double-image{
+  width: 80%;
+  margin: 0 auto;
+
+  div{
+    width: calc(50% - 5px);
+    display: inline-block;
+    &:first-child{
+      margin-right: 10px;
+    }
+  }
+}
+p.header-credits{
+  color: $gray;
+  padding-top: 5px;
+  text-align: right;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-right:10px;
+}
+
+hr{
+  margin: 50px auto;
+}
+
+.note{
+  font-style: italic;
+}

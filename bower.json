@@ -1,0 +1,23 @@
+{
+  "name": "ae-day-2017",
+  "description": "Phillipian's 2017 AE Day Coverage",
+  "main": "gulpfile.js",
+  "authors": [
+    "Jeffrey Shen",
+    "Harvey Zheng"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jeffreyshen19/AE-Day",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ae-day-2017",
+  "version": "1.0.0",
+  "description": "Phillipian's 2017 AE Day Coverage",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreyshen19/AE-Day.git"
+  },
+  "author": "Jeffrey Shen, Harvey Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffreyshen19/AE-Day/issues"
+  },
+  "homepage": "https://github.com/jeffreyshen19/AE-Day#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}

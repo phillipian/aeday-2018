@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px){
+
+  //Typographic elements
+  .quote{
+    width: 90%;
+  }
+  .half-width{
+    width: 100%;
+  }
+  .double-image{
+    width: 100%;
+  }
+
+  //header
+  header{
+    .text{
+      bottom: 30px;
+      left: 30px;
+      h1{
+        font-size: 3em;
+      }
+    }
+  }
+
+  //nav
+  nav{
+    a.text{
+      margin-right: 7px;
+    }
+    padding: 0 15px;
+    font-size: 1.1em;
+  }
+
+  footer{
+    bottom: 20px;
+  }
+}

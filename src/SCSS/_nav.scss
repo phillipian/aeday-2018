@@ -1,0 +1,23 @@
+nav{
+  font-family: sourcesanspro;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px $horizontal-padding;
+  height: 50px;
+  background: $darker-blue;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 100;
+
+  img{
+    height: 30px;
+    margin: 7px 20px 10px 0;
+  }
+
+  a.text{
+    margin-right: 20px;
+    line-height: 50px;
+    color: #EEEEEE;
+  }
+}

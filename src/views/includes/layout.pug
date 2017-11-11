@@ -1,0 +1,30 @@
+doctype html
+html(lang = "en")
+  head
+    meta(charset = "utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name = "description" content = "Phillipian's 2017 AE Day Coverage")
+    meta(name = "author" content = "Jeffrey Shen, Harvey Zheng")
+      
+    link(rel = "icon" type = "image/svg" href = "/dist/images/dark.svg")
+
+    block title
+
+    //Include Libraries
+    link(href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css")
+    link(href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css")
+    script(src="/bower_components/jquery/dist/jquery.min.js")
+    script(src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
+    
+    //Include CSS and JS
+    link(href = "/dist/CSS/main.css" type = "text/css" rel = "stylesheet")
+    script(src = "/dist/JS/main-min.js")
+    
+  body(lang = "en")
+    #wrapper
+      include nav
+      #body
+        block body
+      include footer
+  

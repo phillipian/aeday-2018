@@ -1,0 +1,33 @@
+header{
+  /*background-image: url("http://lorempixel.com/output/city-q-c-1004-480-10.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  // background: gray;
+  background: black no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  .text{
+    position: absolute;
+    bottom: 50px;
+    left: $horizontal-padding;
+    margin-right: $horizontal-padding;
+    background-color: $darker-blue;
+    color: white;
+    padding: 20px;
+    h1{
+      margin: 0;
+      font-size: 4em;
+    }
+    /*.andover{
+      color: $light-blue;
+    }
+    .exeter{
+      color: $red;
+    }*/
+  }
+
+}
