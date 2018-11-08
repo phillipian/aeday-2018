@@ -1,15 +1,15 @@
 # AE Day 2017
-Coverage of Andover/Exeter Day 2017 by *The Phillipian*.
+Coverage of Andover/Exeter Day 2018 by *The Phillipian*.
 
 ## Credits
-Website by Jeffrey Shen '19 and Harvey Zheng '19
+Website by Sarah Chen '21 and Anthony Kim '21
 
 ## Development
 
 ### Getting Started
 Follow the directions below to get a copy of this repository running on your computer:
 
-1.  `git clone https://github.com/jeffreyshen19/AE-Day`
+1.  `git clone https://github.com/phillipian/aeday-2018.git`
 2.  `npm install`
 3.  `bower install`
 4.  `gulp` (runs the website and compiles all SCSS, Pug, and JS)
