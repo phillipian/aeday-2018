@@ -11,19 +11,19 @@ header{
     bottom: 50px;
     left: $horizontal-padding;
     margin-right: $horizontal-padding;
-    background-color: $blue;
-    color: white;
+    background-color: $light-gray;
+    color: $darker-blue;
     padding: 20px;
     h1{
       margin: 0;
       font-size: 4em;
     }
-    /*.andover{
-      color: $light-blue;
+    .andover{
+      color: #446cb3;
     }
     .exeter{
       color: $red;
-    }*/
+    }
   }
 
 }
