@@ -2,7 +2,6 @@ nav{
   font-family: sourcesanspro;
   font-weight: bold;
   font-size: 18px;
-  color: #212121;
   padding: 0px $horizontal-padding;
   height: 50px;
   background: white;
@@ -19,6 +18,6 @@ nav{
   a.text{
     margin-right: 20px;
     line-height: 50px;
-    color: #EEEEEE;
+    color: $darker-blue;
   }
 }
