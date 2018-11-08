@@ -4,7 +4,7 @@ nav{
   font-size: 18px;
   padding: 0px $horizontal-padding;
   height: 50px;
-  background: $darker-blue;
+  background: $light-gray;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -18,6 +18,6 @@ nav{
   a.text{
     margin-right: 20px;
     line-height: 50px;
-    color: #EEEEEE;
+    color: $darker-blue;
   }
 }

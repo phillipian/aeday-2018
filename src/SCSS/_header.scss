@@ -1,9 +1,5 @@
 header{
-  /*background-image: url("http://lorempixel.com/output/city-q-c-1004-480-10.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;*/
-  // background: gray;
+  // background: $light-gray no-repeat center center;
   background: black no-repeat center center;
   background-size: cover;
   height: 70vh;
@@ -15,7 +11,7 @@ header{
     bottom: 50px;
     left: $horizontal-padding;
     margin-right: $horizontal-padding;
-    background-color: $darker-blue;
+    background-color: $blue;
     color: white;
     padding: 20px;
     h1{
