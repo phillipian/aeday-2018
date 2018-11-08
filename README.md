@@ -2,7 +2,7 @@
 Coverage of Andover/Exeter Day 2018 by *The Phillipian*.
 
 ## Credits
-Website by Sarah Chen '21 and Anthony Kim '18
+Website by Sarah Chen '21 and Anthony Kim '21
 
 ## Development
 
