@@ -2,9 +2,10 @@ nav{
   font-family: sourcesanspro;
   font-weight: bold;
   font-size: 18px;
+  color: $darker-blue;
   padding: 0px $horizontal-padding;
   height: 50px;
-  background: $darker-blue;
+  opacity: 0;
   position: fixed;
   width: 100vw;
   top: 0;
