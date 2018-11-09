@@ -1,0 +1,14 @@
+extends includes/layout.pug
+
+block title
+  title AE Day 2018
+
+block body
+  //header(style="background-image:url(/dist/images/cohen/andoverathletics.cohen.jpg)")
+  //p.header-credits= "Courtesy of Phillips Academy Athletics"
+  #story
+    h1 AE Day History in Photos
+    -image_url = "/dist/images/cohen/hsolomon.cohen.jpg"
+    -image_source = "H.Solomon / The Phillipian"
+    -caption = "Cohen, right, talks with teammate Kevin Milkowski '18 before a game"
+    include elements/half-width.pug
