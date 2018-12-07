@@ -1,4 +1,4 @@
-# AE Day 2017
+# AE Day 2018
 Coverage of Andover/Exeter Day 2018 by *The Phillipian*.
 
 ## Credits
